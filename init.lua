@@ -5,7 +5,8 @@ ModLuaFileAppend("mods/noita-nemesis/files/death.lua", "mods/nemesis-fix/files/d
 
 -- fix perk INVISIBILITY 
 ModTextFileSetContent("mods/noita-nemesis/files/append/perk.lua", "-- noop\n")
-ModLuaFileAppend("data/scripts/perks/perk.lua", "mods/nemesis-fix/files/append/perk.lua" )
+--ModLuaFileAppend("data/scripts/perks/perk.lua", "mods/nemesis-fix/files/append/perk.lua" )
+ModLuaFileAppend( "data/scripts/perks/perk_list.lua", "mods/nemesis-fix/files/append/perk_list_appends.lua")
 
 -- improve playerlist
 --ModTextFileSetContent("mods/noita-nemesis/files/append/ui.lua", "-- noop\n")
