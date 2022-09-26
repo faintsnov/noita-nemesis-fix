@@ -14,6 +14,6 @@ function remove_perk( perk_name )
 	end
 end
 
-if (GameHasFlagRun("ban_invis")) then
+--if (GameHasFlagRun("ban_invis")) then
 	remove_perk( "INVISIBILITY" )
-end
+--end
